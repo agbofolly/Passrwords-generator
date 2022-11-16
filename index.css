@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #cbd2c0
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.container > div {
+    flex-basis: 25%;
+    /* border: solid #04d9ff; */
+    background: hsl(324, 23%, 75%);
+    border-radius: 10px;
+    padding: 20px 10px;
+    /* height: 30px;// The big numbers of the passwords( 777) overflowed with "Height and Width"
+    width: 30px; */
+    color: rgb(203, 21, 21);
+    margin-top: 40px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    text-size-adjust: auto;
+    /* gap: 10px; */
+}
+button{ 
+    justify-content: center;
+    border: solid rgba(130, 10, 100, 0.573);
+    background: rgb(102, 150, 255) 1px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 20px 50px;
+    font-weight: bold;  
+}
+input{
+    justify-content: center;
+    border: solid rgba(218, 18, 104, 0.573);
+    background: rgb(16, 185, 236);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
